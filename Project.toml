@@ -1,0 +1,6 @@
+[deps]
+Convex = "f65535da-76fb-5f13-bab9-19810c17039a"
+MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
+SDPA = "b9a10b5b-afa4-512f-a053-bb3d8080febc"
+SemidefiniteOptInterface = "f0680fed-b2cd-5302-98f9-f4da282d86b5"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"

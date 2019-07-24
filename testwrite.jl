@@ -13,5 +13,5 @@ using SemidefiniteOptInterface
 x = Variable(2,2)
 p = minimize(sum(diag(x,1)), x >= 1)
 opt = SDPA.Optimizer()
-Convex.solve!(p, opt)
+opt = Convex.solve!(p, opt)
 MOI.write(opt, "test.sdpa")
